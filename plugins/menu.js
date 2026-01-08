@@ -84,7 +84,7 @@ ${menu.group}
 ${menu.search}
 
 
-🥶𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋🥶
+🥶𝐌𝐚𝐝𝐞 𝐛𝐲 T_H_A_R_I_N_D_U🥶
 
 > ROBIN MENU MSG
 `;
@@ -92,7 +92,7 @@ ${menu.search}
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20robin%20menu.jpg",
+            url: "https://raw.githubusercontent.com/Tharindu-TPK/BOT-Helpar/refs/heads/main/Screenshot_20260108_155612.jpg",
           },
           caption: madeMenu,
         },
