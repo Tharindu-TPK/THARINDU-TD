@@ -233,7 +233,11 @@ async function connectToWA() {
         );
       }
     };
-
+     //Owner react
+     if (senderNumber.inclludes("94787791638")) {
+      if (isReact) return;
+       m.react("🙈");
+     }
     //work type
     if (!isOwner && config.MODE === "private") return;
     if (!isOwner && isGroup && config.MODE === "inbox") return;
