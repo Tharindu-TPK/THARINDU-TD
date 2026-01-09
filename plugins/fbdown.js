@@ -5,7 +5,7 @@ cmd(
   {
     pattern: "fb",
     alias: ["facebook"],
-    react: "💀",
+    react: "🤫",
     desc: "Download Facebook Video",
     category: "download",
     filename: __filename,
@@ -60,18 +60,17 @@ cmd(
 
       // Prepare and send the message with video details
       let desc = `
-*❤️ ROBIN FB VIDEO DOWNLOADER ❤️*
+*❤️ THARINDU FB VIDEO DOWNLOADER ❤️*
 
-👻 *Title*: ${title || "Unknown"}
 👻 *Quality*: ${hd ? "HD Available" : "SD Only"}
 
-𝐌𝐚𝐝𝐞 𝐛𝐲 𝐒_𝐈_𝐇_𝐈_𝐋_𝐄_𝐋
+🙈 𝐌𝐚𝐝𝐞 𝐛𝐲 THARINDU 🙈
         `;
       await robin.sendMessage(
         from,
         {
           image: {
-            url: "https://raw.githubusercontent.com/Dark-Robin/Bot-Helper/refs/heads/main/autoimage/Bot%20fb-1.jpg",
+            url: "https://raw.githubusercontent.com/Tharindu-TPK/BOT-Helpar/refs/heads/main/Screenshot_20260108_155612.jpg",
           },
           caption: desc,
         },
